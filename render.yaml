@@ -1,6 +1,6 @@
 services:
   # PostgreSQL Database
-  - type: postgresql
+  - type: pg
     name: todo-app-db
     plan: free
     databaseName: todoapp
